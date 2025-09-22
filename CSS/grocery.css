@@ -1,0 +1,41 @@
+/* Grocery page styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 12px;
+}
+
+.section {
+    background: var(--card);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+#Grocery-form input[type="text"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 70%;
+    margin-right: 8px;
+}
+
+#Grocery-form button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+}
+
+#grocery-list {
+    margin-top: 12px;
+    list-style: disc inside;
+}
+
+#grocery-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}

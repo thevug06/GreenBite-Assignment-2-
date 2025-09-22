@@ -1,0 +1,36 @@
+/* Profile Page Styles */
+.section h2 {
+    margin-bottom: 10px;
+}
+
+#goals-list {
+    list-style: none;
+    padding: 0;
+}
+
+#goals-list li {
+    margin: 8px 0;
+}
+
+#goals-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#save-goals {
+    margin-top: 12px;
+    padding: 8px 14px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#save-goals:hover {
+    opacity: 0.9;
+}
+
+#user-name, #user-email {
+    font-weight: 500;
+}
+

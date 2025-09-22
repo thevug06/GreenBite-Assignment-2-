@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBite | Recipes</title>
+    <link rel="stylesheet" href="./CSS/shared.css">
+    <link rel="stylesheet" href="./CSS/recipes.css">
+    <script src="./Javascript/shared.js" defer></script>
+    <script src="./Javascript/recipes.js" defer></script>
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <div class="brand">GreenBite</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./recipes.html">Recipes</a></li>
+                <li><a href="./calculator.html">Calculator</a></li>
+                <li><a href="./workout.html">Workout</a></li>
+                <li><a href="./mindfulness.html">Mindfulness</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./rewards.html">Rewards</a></li>
+                <li><a href="./grocery.html">Grocery</a></li>
+                <li><a href="./mood.html">Mood</a></li>
+                <li><a href="./profile.html">Profile</a></li>
+            </ul>
+            <div class="points-badge"><span id="points-display">Points:0</span></div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Delicious and Healthy Recipes for a Healthy Life</h2>
+            <input type="text" id="search-bar" placeholder="Search recipes...">
+            <div id="recipes-container">
+               
+                <div class="recipe-card" data-title="Avocado Toast"
+                     data-ingredients="Bread,Avocado,Lemon,Chili Flakes,Olive Oil"
+                     data-steps="Toast bread,Mash avocado,Mix with lemon and chili,Spread on bread,Drizzle olive oil">
+                    <img src="./images/avocadotoast.jpg" alt="Avocado Toast">
+                    <h3>Avocado Toast</h3>
+                </div>
+
+                
+                <div class="recipe-card" data-title="Quinoa Bowl"
+                     data-ingredients="Quinoa,Spinach,Cherry Tomatoes,Feta,Olive Oil, Lemon"
+                     data-steps="Cook quinoa,Chop veggies,Mix with quinoa,Add feta,Drizzle olive oil and lemon">
+                    <img src="./images/quinoasalad.jpg" alt="Quinoa Bowl">
+                    <h3>Quinoa Bowl</h3>
+                </div>
+
+                
+                <div class="recipe-card" data-title="Blueberry Smoothie"
+                     data-ingredients="Blueberries,Banana,Almond Milk,Honey,Yogurt"
+                     data-steps="Blend blueberries and banana,Add almond milk,Add yogurt and honey,Blend until smooth">
+                    <img src="./images/blueberrysmoothie.jpg" alt="Blueberry Smoothie">
+                    <h3>Blueberry Smoothie</h3>
+                </div>
+
+                 <div class="recipe-card" data-title="Greek Yogurt Parfait"
+                     data-ingredients="Greek Yogurt,Granola,Mixed Berries,Honey"
+                     data-steps="Layer yogurt in a glass,Add granola and berries,Drizzle with honey,Repeat layers if desired">
+                    <img src="./images/greekyoghurtparfait.jpg" alt="Greek Yogurt Parfait">
+                    <h3>Greek Yogurt Parfait</h3>
+                </div>
+
+                <div class="recipe-card" data-title="Chicken Stir Fry"
+                     data-ingredients="Chicken,Broccoli,Bell Pepper,Soy Sauce,Olive Oil"
+                     data-steps="Heat oil in a pan,Cook chicken until browned,Add vegetables and stir fry for 5 minutes,Add soy sauce and cook 2 more minutes">
+                    <img src="./images/chickenstirfry.jpg" alt="Chicken Stir Fry">
+                    <h3>Chicken Stir Fry</h3>
+                </div>
+
+                <div class="recipe-card" data-title="Oatmeal with Fruits"
+                     data-ingredients="Rolled Oats,Milk,Banana,Blueberries,Honey"
+                     data-steps="Cook oats with milk until soft,Top with banana blueberries and honey,Serve warm">
+                    <img src="./images/oatmealwithfruits.jpg" alt="Oatmeal with Fruits">
+                    <h3>Oatmeal with Fruits</h3>
+                </div>
+
+                <div class="recipe-card" data-title="Veggie Wrap"
+                     data-ingredients="Whole Wheat Wrap,Hummus,Lettuce,Carrots,Cucumber"
+                     data-steps="Spread hummus on the wrap,Add vegetables on top,Roll tightly and cut in half,Serve immediately">
+                    <img src="./images/veggiewrap.jpg" alt="Veggie Wrap">
+                    <h3>Veggie Wrap</h3>
+                </div>
+
+                <div class="recipe-card" data-title="Spinach Omelette"
+                     data-ingredients="Eggs,Spinach,Salt,Pepper,Olive Oil"
+                     data-steps="Beat eggs with salt and pepper,Heat oil in a pan,Add spinach and cook for 1 minute,Pour eggs and cook until set">
+                    <img src="./images/spinachomlette.jpg" alt="Spinach Omelette">
+                    <h3>Spinach Omelette</h3>
+                </div>
+
+                <div class="recipe-card" data-title="Banana Pancakes"
+                     data-ingredients="Banana,Egg,Flour,Milk,Baking Powder"
+                     data-steps="Mash banana and mix with egg flour milk and baking powder,Pour batter on hot pan,Cook until golden on both sides,Serve with syrup or fruit">
+                    <img src="./images/bananapancake.jpg" alt="Banana Pancakes">
+                    <h3>Banana Pancakes</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal" id="recipe-modal">
+        <div class="modal-content" id="modal-content">
+            <span class="close-btn">&times;</span>
+        </div>
+    </div>
+</body>
+</html>
+

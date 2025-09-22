@@ -1,0 +1,36 @@
+/* rewards */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#reward-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Pastel Theme (soft pink and mint) */
+.pastel-theme {
+    background: linear-gradient(to right, #ffefff, #e0f7fa);
+    color: #333;
+}
+
+.pastel-theme header, .pastel-theme nav {
+    background-color: rgba(255, 200, 220, 0.8);
+}
+
+.pastel-theme .card {
+    background-color: rgba(255, 255, 255, 0.7);
+}

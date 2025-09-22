@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Avocado Toast",
+    "ingredients": ["2 slices whole-grain bread", "1 avocado", "Salt", "Pepper", "Lemon juice"],
+    "steps": [
+      "Toast the bread slices.",
+      "Mash the avocado and mix with salt, pepper, and lemon juice.",
+      "Spread avocado mix over the toast.",
+      "Serve immediately."
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 6,
+      "carbs": 28,
+      "fat": 14
+    }
+  },
+  {
+    "title": "Berry Smoothie",
+    "ingredients": ["1 cup mixed berries", "1 banana", "1 cup milk or plant milk", "1 tsp honey"],
+    "steps": [
+      "Add all ingredients to a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 4,
+      "carbs": 35,
+      "fat": 2
+    }
+  },
+  {
+    "title": "Quinoa Salad",
+    "ingredients": ["1 cup cooked quinoa", "1/2 cup cherry tomatoes", "1/2 cucumber", "Olive oil", "Lemon juice", "Salt", "Pepper"],
+    "steps": [
+      "Chop vegetables.",
+      "Mix quinoa with vegetables.",
+      "Add olive oil, lemon juice, salt, and pepper.",
+      "Toss well and serve."
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 7,
+      "carbs": 34,
+      "fat": 7
+    }
+  },
+  {
+    "title": "Greek Yogurt Parfait",
+    "ingredients": ["1 cup Greek yogurt", "1/2 cup granola", "1/2 cup mixed berries", "Honey"],
+    "steps": [
+      "Layer yogurt in a glass.",
+      "Add granola and berries.",
+      "Drizzle with honey.",
+      "Repeat layers if desired."
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 15,
+      "carbs": 40,
+      "fat": 7
+    }
+  },
+  {
+    "title": "Chicken Stir Fry",
+    "ingredients": ["200g chicken breast", "1 cup broccoli", "1 bell pepper", "2 tbsp soy sauce", "1 tsp olive oil"],
+    "steps": [
+      "Heat oil in a pan.",
+      "Cook chicken until browned.",
+      "Add vegetables and stir fry for 5 minutes.",
+      "Add soy sauce and cook for 2 more minutes."
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 30,
+      "carbs": 20,
+      "fat": 15
+    }
+  },
+  {
+    "title": "Oatmeal with Fruits",
+    "ingredients": ["1/2 cup rolled oats", "1 cup milk", "1 banana", "1/4 cup blueberries", "Honey"],
+    "steps": [
+      "Cook oats with milk until soft.",
+      "Top with banana, blueberries, and honey.",
+      "Serve warm."
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 8,
+      "carbs": 50,
+      "fat": 5
+    }
+  },
+  {
+    "title": "Veggie Wrap",
+    "ingredients": ["1 whole wheat wrap", "1/2 cup hummus", "1/2 cup lettuce", "1/4 cup carrots", "1/4 cup cucumber"],
+    "steps": [
+      "Spread hummus on the wrap.",
+      "Add vegetables on top.",
+      "Roll tightly and cut in half.",
+      "Serve immediately."
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 6,
+      "carbs": 35,
+      "fat": 7
+    }
+  },
+  {
+    "title": "Spinach Omelette",
+    "ingredients": ["2 eggs", "1/2 cup spinach", "Salt", "Pepper", "1 tsp olive oil"],
+    "steps": [
+      "Beat eggs with salt and pepper.",
+      "Heat oil in a pan.",
+      "Add spinach and cook for 1 minute.",
+      "Pour eggs and cook until set."
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 12,
+      "carbs": 2,
+      "fat": 14
+    }
+  },
+  {
+    "title": "Banana Pancakes",
+    "ingredients": ["1 banana", "1 egg", "1/2 cup flour", "1/2 cup milk", "1 tsp baking powder"],
+    "steps": [
+      "Mash the banana and mix with egg, flour, milk, and baking powder.",
+      "Pour batter on a hot pan.",
+      "Cook until golden on both sides.",
+      "Serve with syrup or fruit."
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 5
+    }
+  }
+]
+

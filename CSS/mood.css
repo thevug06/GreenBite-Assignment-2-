@@ -1,0 +1,45 @@
+/* Mood page styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 12px;
+}
+
+.section {
+    background: var(--card);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+}
+
+#mood-history {
+    margin-top: 12px;
+    list-style: none;
+}
+
+#mood-history p {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}

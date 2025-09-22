@@ -1,0 +1,68 @@
+[
+  {
+    "goal": "weight-loss",
+    "bodyPart": "full-body",
+    "equipment": "none",
+    "exercises": [
+      {
+        "name": "Jumping Jacks",
+        "duration": "30 seconds",
+        "reps": 3
+      },
+      {
+        "name": "Push-ups",
+        "duration": "15 reps",
+        "reps": 3
+      },
+      {
+        "name": "Squats",
+        "duration": "15 reps",
+        "reps": 3
+      }
+    ]
+  },
+  {
+    "goal": "muscle-gain",
+    "bodyPart": "upper-body",
+    "equipment": "dumbbells",
+    "exercises": [
+      {
+        "name": "Bicep Curls",
+        "duration": "12 reps",
+        "reps": 3
+      },
+      {
+        "name": "Shoulder Press",
+        "duration": "12 reps",
+        "reps": 3
+      },
+      {
+        "name": "Push-ups",
+        "duration": "15 reps",
+        "reps": 3
+      }
+    ]
+  },
+  {
+    "goal": "weight-gain",
+    "bodyPart": "lower-body",
+    "equipment": "none",
+    "exercises": [
+      {
+        "name": "Lunges",
+        "duration": "12 reps per leg",
+        "reps": 3
+      },
+      {
+        "name": "Squats",
+        "duration": "15 reps",
+        "reps": 3
+      },
+      {
+        "name": "Calf Raises",
+        "duration": "20 reps",
+        "reps": 3
+      }
+    ]
+  }
+]

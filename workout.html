@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite | Workout</title>
+  <link rel="stylesheet" href="./CSS/shared.css">
+  <link rel="stylesheet" href="./CSS/workout.css">
+  <script src="./Javascript/shared.js" defer></script>
+  <script src="./Javascript/workout.js" defer></script>
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#4CAF50">
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <div class="brand">GreenBite</div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./recipes.html">Recipes</a></li>
+        <li><a href="./calculator.html">Calculator</a></li>
+        <li><a href="./workout.html">Workout</a></li>
+        <li><a href="./mindfulness.html">Mindfulness</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./rewards.html">Rewards</a></li>
+        <li><a href="./grocery.html">Grocery</a></li>
+        <li><a href="./mood.html">Mood</a></li>
+        <li><a href="./profile.html">Profile</a></li>
+      </ul>
+      <div class="points-badge"><span id="points-display">Points:0</span></div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section workout-section">
+      <h2>Workout Routines</h2>
+      <form id="workout-form">
+        <label>Select Your Fitness Goal:
+          <select id="goal" required>
+            <option value="" disabled selected>-- Select Goal --</option>
+            <option value="weight-loss">Weight Loss</option>
+            <option value="muscle-gain">Muscle Gain</option>
+            <option value="weight-gain">Weight Gain</option>
+          </select>
+        </label>
+
+        <label>Body Part:
+          <select id="body-part" required>
+            <option value="" disabled selected>-- Select Body Part --</option>
+            <option value="full-body">Full Body</option>
+            <option value="upper-body">Arms</option>
+            <option value="lower-body">Legs</option>
+          </select>
+        </label>
+
+        <label>Equipment:
+          <select id="equipment" required>
+            <option value="" disabled selected> Select Equipment:</option>
+            <option value="none">None</option>
+            <option value="dumbbells">Dumbbells</option>
+          </select>
+        </label>
+
+        <button type="submit">Get Workout Plan</button>
+      </form>
+
+      <div id="workout-plan" class="workout-cards"></div>
+      <div class="motivation-container">
+        <img src="./images/workforyou.jpg" class="motivation-img" alt="Motivational">
+        <img src="./images/workout.jpg" class="motivation-img" alt="Motivational">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
